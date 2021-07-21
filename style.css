@@ -1,0 +1,27 @@
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body {
+    
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div:hover {
+    
+    transform: scale(0.7) translate(50px,-25px) rotate(120deg);
+    border-radius: 100%;
+    left:52px;
+}
+div {
+    width:100px;
+    height: 100px;
+    background-color: #BCE6EB;
+    position: relative;
+    display: inline-block;
+    transition: 0.7s steps(10,end);
+    margin: 10px;
+}
